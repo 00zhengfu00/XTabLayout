@@ -8,13 +8,20 @@ The Picture is dimiss.
 
 #How to use
 ###Its usage is the same as TabLayout
-
-    .setupWithViewPager(viewPager);//setting up this TabLayout with ViewPager
     
-    .setBottomMargin(int dp);//set the bottomMargin --unit:dp
+    //ViewPager
+    ViewPager viewPager = (ViewPager) findViewById(R.id.xxx);
+    viewPager.setAdapter(xxx);
     
-    .setTextSize(float sp);//set title size --unit:sp
+    //TabLayoutBuilder
+    TabLayoutBuilder tabLayout = (TabLayoutBuilder) findViewById(R.id.xxx);
     
-    .addTab(new TabLayoutBuilder.ItemStatus(CharSequence title, @IdRes int drawableSelectorId, int normalTitleColor, int selectedTitleColor);//add tab to TabLayout
+    tabLayout.setupWithViewPager(viewPager);//setting up this TabLayout with ViewPager
     
-    .build();//show tabView to your screen
+    tabLayout.setBottomMargin(int dp);//set the bottomMargin --unit:dp
+    
+    tabLayout.setTextSize(float sp);//set title size --unit:sp
+    
+    tabLayout.addTab(new TabLayoutBuilder.ItemStatus(CharSequence title, @IdRes int drawableSelectorId, int normalTitleColor, int selectedTitleColor);//add tab to TabLayout
+    
+    tabLayout.build();//show tabView to your screen
