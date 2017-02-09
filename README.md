@@ -4,7 +4,7 @@ This is a TabLayout. Its extra feature is to get the navigation bar icon out of 
 （这是一个增强版本的TabLayout，它额外增加的功能是提供底部栏图标能溢出它的父类.）
 
 #Picture
-The Picture is dimiss.
+<img src="https://github.com/sltpaya/XTabLayout/blob/master/Untitled.gif"  width = "540" height = "960" alt="picture"/>
 
 #How to use
 ###Its usage is the same as TabLayout
