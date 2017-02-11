@@ -7,11 +7,11 @@
         <attr name="tabIndicatorScrollable" format="boolean"/>
         <attr name="tabContentStart" format="dimension"/>
         <attr name="tabBackground" format="reference"/>
-        <attr name="tabMode">
+        <attr name="xtabMode">
             <enum name="scrollable" value="0"/>
             <enum name="fixed" value="1"/>
         </attr>
-        <attr name="tabGravity">
+        <attr name="xtabGravity">
             <enum name="fill" value="0"/>
             <enum name="center" value="1"/>
         </attr>
